@@ -10,7 +10,7 @@
 
 // Refresh.  You will see several failing tests. 
 
-// Modify the code in your appplication (M03.js) to get these tests to pass. 
+// Modify the code in your appplication (W03.js) to get these tests to pass. 
 
 // References: 
 // https://qunitjs.com/
@@ -98,7 +98,7 @@ QUnit.test("pow(2, -2) won't return 1/4; see the implementation (negatives alway
 
 // ******************************************************************************
 // To complete, (1) uncomment the code below.
-// (2) Complete your application code (M03.js) so all these tests pass also.
+// (2) Complete your application code (W03.js) so all these tests pass also.
 // ******************************************************************************
 
 /*

@@ -1,4 +1,4 @@
-# 44-563 M03 Introduction to JavaScript
+# 44-563 w03 Introduction to JavaScript
 
 Introduces a JavaScript app with mathematical functions. 
 

@@ -1,0 +1,82 @@
+*{
+	font:"Times New Roman";
+	color: black;
+}
+
+body{
+	background-image: url("image.jpg");
+	background-repeat: repeat-x;
+	margin: 10px;
+	padding: 10px;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 17px;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: lightcyan;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+h1{
+    font-family: verdana;
+}
+
+.background1{
+	line-height:1.5em;
+	font:"Palatino";
+}
+
+.plans1{
+	line-height:1.5em;
+	font:"Palatino";
+}
+
+.interests1{
+	line-height:1.5em;
+	font:"Palatino";
+}
+
+p.footer{
+	text-align: center;
+	line-height:1.5em;
+	font:"Palatino";
+}
+
+div#profile{
+    margin:10px 1px 15px 1px;
+   
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 80px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #111;
+}
+.active {
+	background-color: #4CAF50;
+}
+
+#nav{
+	  padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+ 

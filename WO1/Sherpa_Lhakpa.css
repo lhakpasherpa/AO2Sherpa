@@ -1,0 +1,46 @@
+*{
+	font:"Times New Roman";
+	line-height:1.5em;
+}
+
+body{
+	text-align:center;
+	background:lightblue;
+	border: 5px solid teal;
+	border-radius: 2em;
+	background-image:url('C:/Users/s525286/Desktop/image.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-size: 17px;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+h1{
+    text-align:center;
+    font-family: verdana;
+}
+
+.background1{
+	line-height:1.5em;
+	font:"Palatino";
+}
+
+.plans1{
+	line-height:1.5em;
+	font:"Palatino";
+}
+
+.interests1{
+	line-height:1.5em;
+	font:"Palatino";
+}
+
+p.footer{
+	text-align:center;
+	line-height:1.5em;
+	font:"Palatino";
+}

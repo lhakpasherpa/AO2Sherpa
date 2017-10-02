@@ -70,13 +70,17 @@ li a {
 li a:hover:not(.active) {
 	background-color: #111;
 }
-.active {
-	background-color: #4CAF50;
+#AO2{
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
 }
 
-#nav{
-	  padding-top: 15px;
-		padding-bottom: 15px;
+	#contact{
+		text-align: center;
+		padding: 14px 80px;
+		text-decoration: none;
 	}
 
  

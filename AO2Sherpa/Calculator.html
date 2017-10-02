@@ -8,22 +8,10 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <link type = "text/css" rel = "stylesheet" href = "Sherpa_Lhakpa.css" />
-      <script>
-         function calculator() {
-           var total = 0;
-           var itemPrice = parseFloat(document.getElementById('a1').value);
-           var itemNumber = parseFloat(document.getElementById('a2').value);
-           var itemDiscount = parseFloat(document.getElementById('a3').value);
-           while(itemPrice !== 0){
-               total = (itemPrice*itemNumber)-(itemPrice*itemNumber)*(itemDiscount/100);
-           }
-           calculator = itemPrice*itemNumber*(itemDiscount/100);
-           document.getElementById("calculate").innerHTML="The total price is "+ calculator;
-           }
-         
-      </script>
+     
    </head>
    <body>
+        <script src="Calculator.js"></script>
       <div id="nav">
          <ul>
             <li><a href="Sherpa_Lhakpa.html">Home</a></li>
@@ -31,15 +19,16 @@
             <li><a href="Contact.html">Contact</a></li>
          </ul>
       </div>
-      <div class = "data">
+      <form class = "active">
          <h3> Price of item:</h3>
          <input type="text" id="a1" >
          <h3> Number of item:</h3>
          <input type="text" id="a2">
          <h3> Discount on item:</h3>
          <input type="text" id="a3"><br><br>
-         <Button type="button"  onclick="calculator()"> Calculate the price</Button>
-         <p id="calculate">  </p>
-      </div>
+         <button type="button"  onclick="calculator()"> Calculate</button>
+         <p id = "Calculate"></p>
+      </form>
+    
    </body>
 </html>
